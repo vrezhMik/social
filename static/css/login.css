@@ -1,0 +1,71 @@
+html{
+    position: relative;
+    min-height: 150vh !important;
+}
+
+#loginMain{
+    background: url(../images/loginBG.png)  no-repeat 55% 40%;
+    background-size: contain;
+    height: 93vh;
+    /* background-position: center; */
+}
+
+.logCont{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.logCont p{
+    font-weight: bold;
+}
+
+form{
+    flex-direction: column;
+    padding: 40px 15px;
+    background: #0000007a;
+}
+
+#signup{
+    display: none;
+}
+
+input, select{
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+    border:none;
+    outline: none;
+    padding: 10px;
+    margin-bottom: 20px;
+    background:none;
+    font-weight: bold;
+    border-bottom: 3px solid #e3e3e3;
+    font-size: 1rem;
+    color:#e3e3e3;
+}
+select{
+    color:#7373e7;
+    padding-left: 0 !important;
+}
+
+input:focus{
+    border-bottom: 3px solid #7373e7;
+}
+
+::placeholder{
+    color: #5757eb;
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+
+
+#submit{
+    color: #fff;
+    border: none;
+    background: #7373e7;
+}
+
+

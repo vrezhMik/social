@@ -1,0 +1,117 @@
+.avatar{
+	padding-left: 30px;
+	width: 15%;
+}
+
+.avatar img{
+	max-height: 150px;
+	max-width: 150px;
+	border:3px solid #efefef;
+	border-radius: 50%;
+	background-color: #efefef;
+	position:relative;
+	top: 50%;
+}
+
+.nameInfo{
+	width: 20%;
+
+}
+
+.nameInfo h1{
+	position: absolute;
+	bottom: 0;
+	font-weight: bold;
+	text-transform: capitalize;
+	color: #efefef;
+}
+
+.menu{
+	width: 65%;
+}
+
+.menuList{
+	float: right;
+}
+
+.menuList li{
+	list-style:none;
+	float: left;
+	margin:0 15px;
+}
+
+.menuList a{
+	text-decoration: none;
+	color: #e3e3e3;
+	text-transform: capitalize;
+	font-size:1.1rem;
+	padding:0 5px;
+	font-weight: bold;
+}
+
+.menuList a:hover{
+	border-bottom: 2px solid #efefef;
+}
+
+.indexCont{
+	width: 80%;
+}
+
+.sidebar{
+	width: 20%;
+	border-left: 3px solid #efefef;
+	padding-left: 20px;
+}
+
+.sidebar h1,.friendsSidebarList{
+margin-bottom: 30px;
+
+}
+
+.friendsSidebarList a, .postAuthor a{
+	display: flex;
+	align-items: center;
+	text-decoration: none;
+	color:#7373e7;
+	font-weight: bold;
+}
+
+.friendsSidebarList p,.postAuthor p{
+	margin-left: 15px;
+	text-transform: capitalize;
+}
+
+.friendsSidebarList img, .postAuthor img{
+	max-height: 30px;
+	max-width: 30px;
+	border-radius: 50%;
+}
+.postAuthor{
+	margin-bottom: 20px;
+}
+
+.post{
+	width: 90%;
+    height: auto;
+    position: relative;
+    padding: 50px 20px;
+    margin: 50px auto;
+    display: inline-block;
+    background: #e3e3e3;
+}
+
+.postBtn{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	padding-bottom: 10px;
+}
+
+.postBtn button{
+	color: #7373e7;
+	padding:0 10px;
+}
+
+.postBtn i{
+	margin-right: 5px;
+}
